@@ -2,7 +2,7 @@
 
 
 
-var myFullName;
+var myFullName; // Variable declaration //
 myFullName = "Ashwini Jadhav"
 console.log(myFullName);
 
