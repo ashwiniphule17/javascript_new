@@ -3,12 +3,12 @@
 
 
 console.log("1..");
-function name(){
+function firstName(){
     var firstName = "Ashwini";
     var lastName = "Jadhav";
     console.log("Name - ",firstName,lastName);
 }
-name();
+firstName();
 function degree(){
     var degree = "Electronics";
     console.log("Degree - ",degree);
