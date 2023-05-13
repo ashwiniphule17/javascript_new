@@ -15,17 +15,15 @@ console.log(".....................................................");
 
 var handsOn ="  Hey you are doing good,keep it up    ";
 var trimmedHandsOn = handsOn.trim();
-console.log("Given String After Trim:",trimmedHandsOn);
-console.log("Given String After Trim Length:",trimmedHandsOn.length);
-console.log(".....................................................");
+var lengthAfterTrim = trimmedHandsOn.length;
+console.log("After Trim Given String Is: ",trimmedHandsOn,trimmedHandsOn.length);
+console.log("Trimmed Total Spaces-",handsOnLength-lengthAfterTrim);
 
-console.log("Total Num Of Removed Spaces: 6");
 console.log(".....................................................");
 
 var handsOn ="Hey you are doing good,keep it up";
 var charAtZeroIndex = handsOn.charAt();
 var charAtLastIndex = handsOn.charAt(handsOn.length-1);
 console.log("First Char & Last Char : ",charAtZeroIndex,charAtLastIndex);
-
 
 

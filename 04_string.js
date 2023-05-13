@@ -43,3 +43,6 @@ console.log("Total number parts: ",resultSplit.length);
 var resultSplit = greet.split("");
 console.log(resultSplit);
 console.log("Total number of words: ",resultSplit.length);
+
+var subStringResult = greet.substring(4,6);
+console.log("Result of Substring Is :",subStringResult);
