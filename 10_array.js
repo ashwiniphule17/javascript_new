@@ -99,8 +99,6 @@ for (let index = 0; index < arrayNames.length; index++) {
     console.log(element);
 }
 
-
-
 console.log(`------------ for in loop -----------------`);
 for (const index in arrayNames) {
     console.log(arrayNames[index]);
