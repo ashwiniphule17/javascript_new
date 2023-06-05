@@ -15,8 +15,7 @@ interviewEligibilty(80,86,90,"Ashwini");
  interviewEligibilty(70,65,55,"Suryaja");
 
     var interviewEligibilty = function(gradScore,hscScore,sscScore,candidateName){
-    var resultThree = ('Graduation score>=70') || ('HSc score>=80') || ('SSc Score >90') ? "Congrats Snehal you are eligible for interview":
+    var resultThree = (('Graduation score>=70') || ('HSc score>=80') || ('SSc Score >90')) ? "Congrats Snehal you are eligible for interview" :
     "Unfotunately you are not eligible for interview";
-    console.log(`${resultThree}`);    
-}
+    console.log(`${resultThree}`);}
 interviewEligibilty(60,79,88,"Snehal");
