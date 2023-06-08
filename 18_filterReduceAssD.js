@@ -82,13 +82,22 @@ console.log(`5. Average salary of IT Departments... `);
 const arrayItDept = array_employees.filter( (employee) => {
     return employee.emp_dept == "IT";
 });
-const arraySumSalaryItDept = arrayItDept.map((employee) => {
-     return employee.emp_salary;
+let sumOfItSalary = 0;
+arrayItDept.forEach((employee) => {
+    sumOfItSalary = sumOfItSalary + employee.emp_salary;
 });
-const avgSalary = arraySumSalaryItDept.reduce((runningTotal,value) =>{
-    return runningTotal + value; 
-});
-console.log(avgSalary / arrayItDept.length);
+const avgSalary = sumOfItSalary / arrayItDept.length;
+console.log(avgSalary);
+
+
+
+//const arraySumSalaryItDept = arrayItDept.map((employee) => {
+   //  return employee.emp_salary;
+//});
+//const avgSalary = arraySumSalaryItDept.reduce((runningTotal,value) =>{
+    //return runningTotal + value; 
+//});
+//console.log(avgSalary / arrayItDept.length);
 
 
 
