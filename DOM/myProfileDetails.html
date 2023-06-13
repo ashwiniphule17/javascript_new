@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Profile Details </title>
+</head>
+<body>
+    <h1 id="heading"> My Profile Details </h1>
+    <h2 id="stack"> Technology Stack </h2>
+    <ul class="list">
+        <li> HTML & CSS </li>
+        <li id="techStack"> Agile & JIRA </li>
+        <li> Angular Or React</li>
+        <li> Oracle Database</li>
+    </ul>
+    <h1> My Hobbies </h1>
+    <a href="www.google.com" > My Profile </a>
+    <p> Project Description </p>
+
+    <script>
+       const elementStack = document.querySelector('#stack');
+       elementStack.style.color = 'red'; 
+
+       const elementHeading = document.querySelector('#heading');
+       elementHeading.style.color = 'blue';
+
+       const elementList = document.querySelector('.list');
+       const elementTechStack = document.querySelector('#techStack');
+       elementList.removeChild(elementTechStack);
+    </script>
+</body>
+</html>
