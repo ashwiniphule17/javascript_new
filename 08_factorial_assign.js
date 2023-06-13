@@ -1,7 +1,7 @@
 function factorialOfNum(value) {
   let factorial = 1;
   if (value == 0) {
-    console.log(`Factoeial of 0 is : 1`);
+    console.log(`Factorial of 0 is : 1`);
     return;
   }else {
     if (value == null || value == undefined || isNaN(value)) {

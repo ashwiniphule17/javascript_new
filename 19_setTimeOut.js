@@ -16,3 +16,7 @@ setTimeout( function(){
 setTimeout( ()=>{
     console.log(`Inside arrow function...`);
 }, 3000);
+
+setTimeout(()=>{
+
+},1000 );

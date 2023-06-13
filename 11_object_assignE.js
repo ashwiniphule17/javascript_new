@@ -34,7 +34,7 @@ console.log(`-------------------------------------------------------------------
 const hdfcBank = {
     bankName: "HDFC Bank",
     location: "Nigadi",
-    accountNo: 09874347,
+    accountNo: 987499347,
     ifsc: "HDFC0000490",
     intrestrate: "8.50%",
     showdetails:function(){
