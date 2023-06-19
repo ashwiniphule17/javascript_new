@@ -14,6 +14,7 @@
     if (reverseString==str) {
         console.log(`Given string : ${str} is --Pallindrome`);
     }
+
     else if (reverseString!==str) {
         console.log(`Given string : ${str} is -- Not Pallindrome`);
     }

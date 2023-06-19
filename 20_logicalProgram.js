@@ -20,3 +20,5 @@ console.log(`B. Alphabets From Array`);
 console.log(arrChar);
 
 
+
+
