@@ -47,7 +47,7 @@ console.log(`3. Employee ID greater than 50... `);
 const idGreaterThanFifty = array_employees.filter( (employee) => {
     return employee.emp_id >50;
 });
-//console.log(idGreaterThanFifty);
+// console.log(idGreaterThanFifty);
 const arrayId = idGreaterThanFifty.map((employee) => {
     return employee.emp_id;
 });
