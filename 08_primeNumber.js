@@ -23,3 +23,4 @@ function primeNum(num) {
   primeNum(5);
   primeNum(9);
   primeNum(11);
+  primeNum(15);
